@@ -1,0 +1,41 @@
+.container {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+
+.footer {
+  background-color: lightgray;
+  padding: 2rem;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-link-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 7.2rem;
+}
+
+.copyrights {
+  display: flex;
+  justify-content: space-around;
+}
+
+.who-we-are ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.company ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.follow-us ul {
+  list-style: none;
+  padding: 0px;
+}

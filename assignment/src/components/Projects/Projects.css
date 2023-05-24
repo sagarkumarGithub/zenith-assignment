@@ -1,0 +1,66 @@
+.container {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+.projects {
+  margin-top: 4.8rem;
+}
+
+.projects h1 {
+  color: #fb5607;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.active {
+  background-color: #fb5607 !important ;
+  color: white;
+}
+
+.oval-btns button {
+  margin-right: 2rem;
+  font-size: 1rem;
+  background-color: white;
+  border: 1px solid grey;
+}
+
+.ovals {
+  border-radius: 1rem;
+  padding: 0.8rem;
+}
+
+.square-btn button {
+  margin-right: 2rem;
+  font-size: 1rem;
+  background-color: white;
+  border: 1px solid grey;
+}
+
+.square {
+  border-radius: 0.5rem;
+  padding: 0.8rem;
+}
+
+.card-image {
+  height: 500px;
+  width: 500px;
+}
+
+.project-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+}
+
+.card-image {
+  height: 17rem;
+  width: 17rem;
+  border-radius: 10px;
+  object-fit: cover;
+  background-position: center;
+}

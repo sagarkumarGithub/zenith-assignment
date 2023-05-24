@@ -1,0 +1,107 @@
+.container {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+.hero {
+  margin-top: 3.2rem;
+}
+
+.hero-top {
+  display: flex;
+}
+
+.price {
+  color: #fb5607;
+}
+
+#unit {
+  color: black;
+  margin-left: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.hero h2 {
+  color: grey;
+}
+
+.hero-img {
+  height: 36rem;
+  width: 32rem;
+}
+
+.hero-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-position: center;
+  border-radius: 15px;
+}
+
+.hero-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3.2rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 2px;
+}
+
+.hero-input button {
+  margin-right: 12px;
+}
+
+.hero-input input {
+  border: none;
+  margin-left: 12px;
+  outline: none;
+  font-size: 16px;
+  width: 80%;
+}
+
+.hero-text {
+  padding: 3.2rem;
+}
+
+.sideImages {
+  display: flex;
+  height: 20rem;
+  width: 12rem;
+}
+
+.sideImages img {
+  width: 100%;
+  object-fit: cover;
+  background-image: center;
+  margin-right: 20px;
+}
+
+.hero-bottom {
+  display: flex;
+  margin-top: 2.4rem;
+  margin-bottom: 2.4rem;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 18px;
+}
+
+.data {
+  width: 60%;
+}
+
+.images {
+  width: 20%;
+}
+
+.content {
+  margin-top: 4rem;
+}
